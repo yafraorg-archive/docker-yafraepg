@@ -22,14 +22,17 @@ FROM yafraorg/docker-yafrabase
 
 MAINTAINER Martin Weber <info@yafra.org>
 
+COPY run-docker.sh /work
+
 # Install mono packages
 RUN apt-get update && \
-  apt-get install -yq mono-complete monodevelop  && \
+  apt-get install -yq mono-complete unrar-free  && \
   apt-get install -yq libpq5 mysql-client-5.5 libmysql-cil-dev symlinks && \
   rm -rf /var/lib/apt/lists/*
-
-# Install Web Grabber Plus
-RUN cd /work/repos && git clone https://github.com/yafraorg/yafra-tdb-csharp.git
+  
+RUN cd /work && \
+  wget http://www.webgrabplus.com/sites/default/files/download/SW/V1.1.1/WebGrabPlusV1.1.1LINUX.rar && \
+  unrar WebGrabPlusV1.1.1LINUX.rar
 
 EXPOSE 80
 CMD ["/work/run-docker.sh"]

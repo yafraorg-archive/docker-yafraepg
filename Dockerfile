@@ -32,16 +32,18 @@ WORKDIR /work
 
 RUN cd /work && \
   wget http://www.webgrabplus.com/sites/default/files/download/SW/V1.1.1/WebGrabPlusV1.1.1LINUX.rar && \
-  wget http://www.webgrabplus.com/sites/default/files/download/sw/V1.1.1/upgrade/patchexe_54.zip && \
-  unrar WebGrabPlusV1.1.1LINUX.rar && \
-  mv WebGrab+PlusV1.1.1LINUX/ wgplus && \
-  mv patchexe_54.zip wgplus/ && \
-  cd wgplus && \
-  unzip patchexe_54.zip && \
-  mkdir ../wg && \
-  mkdir ../wg/mdb && \
-  mkdir ../wg/rex && \
-  cp WebGrab+Plus.exe ../wg
+  wget http://www.webgrabplus.com/sites/default/files/download/sw/V1.1.1/upgrade/patchexe_54.zip
+
+#
+#  unrar WebGrabPlusV1.1.1LINUX.rar && \
+#  mv WebGrab+PlusV1.1.1LINUX/ wgplus && \
+#  mv patchexe_54.zip wgplus/ && \
+#  cd wgplus && \
+#  unzip patchexe_54.zip && \
+#  mkdir ../wg && \
+#  mkdir ../wg/mdb && \
+#  mkdir ../wg/rex && \
+#  cp WebGrab+Plus.exe ../wg
 
 COPY run-docker.sh /work
 COPY epgconfig/WebGrab++.config.xml /work/wg/

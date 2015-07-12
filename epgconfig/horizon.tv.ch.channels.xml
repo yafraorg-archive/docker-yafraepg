@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<site generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version 1.1.1/55.10 -- Jan van Straaten" site="horizon.tv">
+  <channels>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159188" xmltv_id="SRF 1 HD">SRF 1 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159201" xmltv_id="SRF zwei HD">SRF zwei HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159158" xmltv_id="SRF info">SRF info</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159449" xmltv_id="3+ HD">3+ HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="538913319362" xmltv_id="TV24 HD">TV24 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999363" xmltv_id="S1 HD">S1 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999386" xmltv_id="Star TV HD">Star TV HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="541614119267" xmltv_id="TeleZüri HD">TeleZüri HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159156" xmltv_id="Das Erste HD">Das Erste HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159181" xmltv_id="ZDF HD">ZDF HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159338" xmltv_id="ORF eins HD">ORF eins HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159347" xmltv_id="ORF 2 HD">ORF 2 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="48323623166" xmltv_id="RTL HD">RTL HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159257" xmltv_id="SAT.1 HD">SAT.1 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159335" xmltv_id="ProSieben HD">ProSieben HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="48323623167" xmltv_id="RTL 2 HD">RTL 2 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159419" xmltv_id="4+ HD">4+ HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="552540199185" xmltv_id="5+ HD">5+ HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="48323623169" xmltv_id="VOX HD">VOX HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159148" xmltv_id="kabel eins HD">kabel eins HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="560248871296" xmltv_id="Tele Bärn HD">Tele Bärn HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="48323623168" xmltv_id="TeleBielingue">TeleBielingue</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159220" xmltv_id="Telebasel">Telebasel</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="560248871297" xmltv_id="Tele M1 HD">Tele M1 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="560248871290" xmltv_id="Tele 1 HD">Tele 1 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159393" xmltv_id="Tele Top">Tele Top</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="154357799412" xmltv_id="TVO">TVO</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999401" xmltv_id="nickelodeon HD">nickelodeon HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159223" xmltv_id="KiKA HD">KiKA HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="48323623170" xmltv_id="Super RTL HD">Super RTL HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="343586343346" xmltv_id="Disney Channel">Disney Channel</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999378" xmltv_id="RTL Nitro HD">RTL Nitro HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="560248871284" xmltv_id="ProSieben MAXX HD">ProSieben MAXX HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999380" xmltv_id="DMAX HD">DMAX HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="541751335233" xmltv_id="TLC">TLC</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="560248871285" xmltv_id="Sixx HD">Sixx HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159363" xmltv_id="zdf_neo HD">zdf_neo HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="435751975340" xmltv_id="SAT.1 Gold">SAT.1 Gold</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909670951" xmltv_id="Tele 5">Tele 5</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159215" xmltv_id="ATV">ATV</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159442" xmltv_id="Eurosport">Eurosport</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="541614119266" xmltv_id="SPORT1 HD">SPORT1 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="541751335228" xmltv_id="SSF">SSF</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159403" xmltv_id="Joiz HD">Joiz HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999370" xmltv_id="MTV HD">MTV HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999393" xmltv_id="Comedy HD/VIVA HD">Comedy HD/VIVA HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="541614119262" xmltv_id="CH TV HD">CH TV HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909670952" xmltv_id="gotv">gotv</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159416" xmltv_id="Servus TV HD">Servus TV HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159209" xmltv_id="Arte HD">Arte HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159330" xmltv_id="3sat HD">3sat HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159360" xmltv_id="SWR BW HD">SWR BW HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159183" xmltv_id="BR Süd HD">BR Süd HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159290" xmltv_id="WDR Fernsehen HD">WDR Fernsehen HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="541614119263" xmltv_id="MDR Sachsen HD">MDR Sachsen HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159151" xmltv_id="NDR HD">NDR HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="541614119269" xmltv_id="hr-fernsehen HD">hr-fernsehen HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="541614119271" xmltv_id="rbb Berlin HD">rbb Berlin HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159374" xmltv_id="EinsPlus">EinsPlus</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159372" xmltv_id="Einsfestival">Einsfestival</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159369" xmltv_id="Phoenix">Phoenix</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159397" xmltv_id="zdf.kultur">zdf.kultur</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159204" xmltv_id="ARD-alpha">ARD-alpha</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159448" xmltv_id="tagesschau24">tagesschau24</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159285" xmltv_id="ZDFinfo">ZDFinfo</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159191" xmltv_id="n-tv">n-tv</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="343586343347" xmltv_id="N24 HD">N24 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159255" xmltv_id="euronews">euronews</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159258" xmltv_id="HSE24">HSE24</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159446" xmltv_id="SCHWEIZ5">SCHWEIZ5</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159293" xmltv_id="Bibel TV">Bibel TV</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159260" xmltv_id="K-TV">K-TV</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159343" xmltv_id="Nat Geo HD">Nat Geo HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999396" xmltv_id="Nat Geo Wild HD">Nat Geo Wild HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159256" xmltv_id="History HD">History HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="560248871294" xmltv_id="A&amp;E HD">A&amp;E HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159289" xmltv_id="Planet HD">Planet HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159405" xmltv_id="Discovery HD">Discovery HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="435751975350" xmltv_id="Animal Planet HD">Animal Planet HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159160" xmltv_id="Travel Channel">Travel Channel</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999404" xmltv_id="RTL Living HD">RTL Living HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999398" xmltv_id="Bon Gusto HD">Bon Gusto HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159350" xmltv_id="Romance TV HD">Romance TV HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999400" xmltv_id="Passion HD">Passion HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159415" xmltv_id="E! TV">E! TV</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159135" xmltv_id="TNT Glitz HD">TNT Glitz HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="541751335231" xmltv_id="Universal Channel HD">Universal Channel HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999369" xmltv_id="Kinowelt HD">Kinowelt HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159197" xmltv_id="TNT Film HD">TNT Film HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159380" xmltv_id="TNT Serie HD">TNT Serie HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159375" xmltv_id="Fox HD">Fox HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159388" xmltv_id="AXN HD">AXN HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159283" xmltv_id="RTL Crime HD">RTL Crime HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159352" xmltv_id="13th Street HD">13th Street HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159371" xmltv_id="Syfy HD">Syfy HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="560248871295" xmltv_id="ProSieben FUN HD">ProSieben FUN HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="560248871280" xmltv_id="kabel eins classics">kabel eins classics</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="541614119258" xmltv_id="Disney XD HD">Disney XD HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="541614119268" xmltv_id="Cartoon Network HD">Cartoon Network HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="541614119270" xmltv_id="Boomerang HD">Boomerang HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159164" xmltv_id="Junior">Junior</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="541614119256" xmltv_id="Disney Junior HD">Disney Junior HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="560248871292" xmltv_id="Nick Jr.">Nick Jr.</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159139" xmltv_id="JimJam">JimJam</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159307" xmltv_id="MTV Live HD">MTV Live HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159246" xmltv_id="MTV Brand New">MTV Brand New</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="233503783050" xmltv_id="MTV Music">MTV Music</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159366" xmltv_id="MTV Dance">MTV Dance</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159422" xmltv_id="VH1-Classic">VH1-Classic</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159262" xmltv_id="Gute Laune TV">Gute Laune TV</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159213" xmltv_id="Classica">Classica</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159444" xmltv_id="Eurosport HD">Eurosport HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159399" xmltv_id="Eurosport 2">Eurosport 2</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159230" xmltv_id="SPORT1+ HD">SPORT1+ HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159208" xmltv_id="Auto Motor + Sport">Auto Motor + Sport</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159365" xmltv_id="Motors TV">Motors TV</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="122150439046" xmltv_id="SPORT1 US HD">SPORT1 US HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="560248871289" xmltv_id="sportdigital HD">sportdigital HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159348" xmltv_id="Extreme Sports">Extreme Sports</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159316" xmltv_id="Nautical Channel">Nautical Channel</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909670954" xmltv_id="Adult Channel">Adult Channel</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909670955" xmltv_id="Blue Hustler">Blue Hustler</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159280" xmltv_id="BBC One">BBC One</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159281" xmltv_id="BBC One HD">BBC One HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159305" xmltv_id="BBC Two HD">BBC Two HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="541751335234" xmltv_id="BBC Three/CBBC">BBC Three/CBBC</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999387" xmltv_id="BBC Four/Cbeebies">BBC Four/Cbeebies</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999364" xmltv_id="ITV HD">ITV HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159384" xmltv_id="ITV 2">ITV 2</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999367" xmltv_id="ITV 3">ITV 3</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999373" xmltv_id="ITV 4">ITV 4</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999381" xmltv_id="Channel 4 HD">Channel 4 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999372" xmltv_id="E4">E4</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999374" xmltv_id="More 4">More 4</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159237" xmltv_id="Film 4">Film 4</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159180" xmltv_id="Channel 5">Channel 5</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159297" xmltv_id="Fashion TV">Fashion TV</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159304" xmltv_id="CNN Int.">CNN Int.</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159298" xmltv_id="BBC World News">BBC World News</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159264" xmltv_id="Al Jazeera English">Al Jazeera English</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999389" xmltv_id="CCTV News">CCTV News</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999376" xmltv_id="Russia Today">Russia Today</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159231" xmltv_id="CNBC">CNBC</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159254" xmltv_id="Bloomberg TV">Bloomberg TV</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159218" xmltv_id="RSI LA 1 HD">RSI LA 1 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159251" xmltv_id="RSI LA 2 HD">RSI LA 2 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159249" xmltv_id="Rai 1">Rai 1</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159425" xmltv_id="Rai 2">Rai 2</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159329" xmltv_id="Rai 3">Rai 3</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="435751975362" xmltv_id="Canale 5 HD">Canale 5 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="435751975352" xmltv_id="Italia 1 HD">Italia 1 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="435751975345" xmltv_id="Rete 4 HD">Rete 4 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159390" xmltv_id="Rai 4">Rai 4</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159433" xmltv_id="La 7">La 7</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159203" xmltv_id="Rai Sport 1">Rai Sport 1</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159441" xmltv_id="Eurosport I">Eurosport I</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="435751975346" xmltv_id="Nat_Geo I">Nat_Geo I</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159226" xmltv_id="Rai News">Rai News</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159382" xmltv_id="Video Italia">Video Italia</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="233503783051" xmltv_id="Mediaset Italia">Mediaset Italia</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159185" xmltv_id="RTS Un HD">RTS Un HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159395" xmltv_id="RTS Deux HD">RTS Deux HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159278" xmltv_id="TF 1 HD">TF 1 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159274" xmltv_id="France 2 HD">France 2 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159323" xmltv_id="France 3 (Alsace)">France 3 (Alsace)</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159291" xmltv_id="France 4">France 4</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159243" xmltv_id="France 5">France 5</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="256616999390" xmltv_id="M6 HD">M6 HD</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159193" xmltv_id="France 24">France 24</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159437" xmltv_id="NT1">NT1</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159217" xmltv_id="TV5MONDE">TV5MONDE</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159175" xmltv_id="Gulli">Gulli</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159429" xmltv_id="Teleclub Cinema">Teleclub Cinema</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159417" xmltv_id="Teleclub Star">Teleclub Star</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="274242599143" xmltv_id="Teleclub Prime">Teleclub Prime</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159439" xmltv_id="MGM">MGM</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159353" xmltv_id="13th Street (TC)">13th Street (TC)</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159161" xmltv_id="Sat.1 emotions">Sat.1 emotions</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159373" xmltv_id="FOX (TC)">FOX (TC)</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159362" xmltv_id="Krimi">Krimi</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159409" xmltv_id="Discovery (TC)">Discovery (TC)</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159351" xmltv_id="Romance TV (TC)">Romance TV (TC)</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159334" xmltv_id="Animal Planet (TC)">Animal Planet (TC)</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159253" xmltv_id="Disney Cinemagic">Disney Cinemagic</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159387" xmltv_id="Spiegel Geschichte">Spiegel Geschichte</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159171" xmltv_id="Disney XD (TC)">Disney XD (TC)</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159434" xmltv_id="Teleclub Sport 1">Teleclub Sport 1</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159320" xmltv_id="Teleclub Sport 2">Teleclub Sport 2</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159211" xmltv_id="Teleclub Sport 3">Teleclub Sport 3</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159198" xmltv_id="Hustler TV">Hustler TV</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159428" xmltv_id="Private TV">Private TV</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159250" xmltv_id="Dorcel TV">Dorcel TV</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909670957" xmltv_id="Tele Bärn">Tele Bärn</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159172" xmltv_id="Tele M1">Tele M1</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909670956" xmltv_id="Tele 1">Tele 1</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159314" xmltv_id="TRT-TÜRK">TRT-TÜRK</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159427" xmltv_id="Euro D">Euro D</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="443691047116" xmltv_id="Show Türk">Show Türk</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="443691047117" xmltv_id="NTV Avrupa">NTV Avrupa</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="443691047118" xmltv_id="TGRT Haber">TGRT Haber</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909159282" xmltv_id="BVN TV">BVN TV</channel>
+    <channel update="i" site="horizon.tv.ch" site_id="27909670958" xmltv_id="Horizon Welcome Channel">Horizon Welcome Channel</channel>
+  </channels>
+</site>

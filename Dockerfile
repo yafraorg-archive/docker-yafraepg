@@ -24,8 +24,7 @@ MAINTAINER Martin Weber <info@yafra.org>
 
 # Install mono packages
 RUN apt-get update && \
-  apt-get install -yq mono-complete unrar-free  && \
-  apt-get install -yq libpq5 mysql-client-5.5 libmysql-cil-dev symlinks && \
+  DEBIAN_FRONTEND=noninteractive apt-get install -yq mono-complete unrar-free  && \
   rm -rf /var/lib/apt/lists/*
 
 WORKDIR /work
@@ -45,8 +44,8 @@ RUN cd /work && \
 #  mkdir ../wg/rex && \
 #  cp WebGrab+Plus.exe ../wg
 
-COPY run-docker.sh /work
-COPY epgconfig/WebGrab++.config.xml /work/wg/
+COPY /run-docker.sh /work
+COPY /epgconfig/WebGrab++.config.xml /work/wg/
 
 #EXPOSE 80
 CMD ["/work/run-docker.sh"]

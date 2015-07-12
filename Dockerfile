@@ -30,8 +30,8 @@ RUN apt-get update && \
 WORKDIR /work
 
 RUN cd /work && \
-  wget http://www.webgrabplus.com/sites/default/files/download/SW/V1.1.1/WebGrabPlusV1.1.1LINUX.rar && \
-  wget http://www.webgrabplus.com/sites/default/files/download/sw/V1.1.1/upgrade/patchexe_54.zip
+  wget -q http://www.webgrabplus.com/sites/default/files/download/SW/V1.1.1/WebGrabPlusV1.1.1LINUX.rar && \
+  wget -q http://www.webgrabplus.com/sites/default/files/download/sw/V1.1.1/upgrade/patchexe_54.zip
 
 #
 #  unrar WebGrabPlusV1.1.1LINUX.rar && \
@@ -44,8 +44,8 @@ RUN cd /work && \
 #  mkdir ../wg/rex && \
 #  cp WebGrab+Plus.exe ../wg
 
-COPY /run-docker.sh /work
-COPY /epgconfig/WebGrab++.config.xml /work/wg/
+COPY run-docker.sh /work/run-docker.sh
+COPY epgconfig/WebGrab++.config.xml /work/wg/WebGrab++.config.xml
 
 #EXPOSE 80
-CMD ["/work/run-docker.sh"]
+#CMD ["/work/run-docker.sh"]

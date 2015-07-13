@@ -34,7 +34,7 @@ RUN cd /work && \
   git clone https://github.com/yafraorg/docker-yafraepg.git && \
   wget -q http://www.webgrabplus.com/sites/default/files/download/SW/V1.1.1/WebGrabPlusV1.1.1LINUX.rar && \
   wget -q http://www.webgrabplus.com/sites/default/files/download/sw/V1.1.1/upgrade/patchexe_54.zip && \
-  unrar WebGrabPlusV1.1.1LINUX.rar && \
+  unrar x WebGrabPlusV1.1.1LINUX.rar && \
   mv WebGrab+PlusV1.1.1LINUX/ wgplus && \
   mv patchexe_54.zip wgplus/ && \
   cd wgplus && \

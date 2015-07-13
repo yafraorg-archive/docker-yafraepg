@@ -9,7 +9,7 @@ The path (required) + filename where the epgguide xml file is /will be located. 
 If the file already exist (from last run or from another xmltv source) it will read it and use what fits the requested output. In that case the file will be updated. If no such file exist it will be created.
 Change the following to your own needs  :
 -->
- <filename>~/work/wg/guide.xml</filename>
+ <filename>/work/wg/guide.xml</filename>
   
   <!-- modes:   
 d or debug    saves the output xmltv file in a file with -debug addition in the file name . The original xmltv file will be kept.  
@@ -118,7 +118,7 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
  -->
 <channel update="i" site="horizon.tv.ch" site_id="27909159188" xmltv_id="SRF 1 HD">SRF 1 HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159201" xmltv_id="SRF zwei HD">SRF zwei HD</channel>
-<channel update="i" site="horizon.tv.ch" site_id="27909159158" xmltv_id="SRF info">SRF info</channel>
+<channel update="i" site="horizon.tv.ch" site_id="581742118955" xmltv_id="SRF info">SRF info</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159449" xmltv_id="3+ HD">3+ HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="256616999363" xmltv_id="S1 HD">S1 HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="256616999386" xmltv_id="Star TV HD">Star TV HD</channel>
@@ -134,13 +134,13 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
 <channel update="i" site="horizon.tv.ch" site_id="552540199185" xmltv_id="5+ HD">5+ HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="48323623169" xmltv_id="VOX HD">VOX HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159148" xmltv_id="kabel eins HD">kabel eins HD</channel>
-<channel update="i" site="horizon.tv.ch" site_id="27909159220" xmltv_id="Telebasel">Telebasel</channel>
+<channel update="i" site="horizon.tv.ch" site_id="581742118963" xmltv_id="Telebasel">Telebasel</channel>
 <channel update="i" site="horizon.tv.ch" site_id="256616999401" xmltv_id="nickelodeon HD">nickelodeon HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159223" xmltv_id="KiKA HD">KiKA HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="48323623170" xmltv_id="Super RTL HD">Super RTL HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159442" xmltv_id="Eurosport">Eurosport</channel>
 <channel update="i" site="horizon.tv.ch" site_id="541614119266" xmltv_id="SPORT1 HD">SPORT1 HD</channel>
-<channel update="i" site="horizon.tv.ch" site_id="541751335228" xmltv_id="SSF">SSF</channel>
+<channel update="i" site="horizon.tv.ch" site_id="581740583440" xmltv_id="SSF">SSF</channel>
 <channel update="i" site="horizon.tv.ch" site_id="541614119262" xmltv_id="CH TV HD">CH TV HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159209" xmltv_id="Arte HD">Arte HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159330" xmltv_id="3sat HD">3sat HD</channel>

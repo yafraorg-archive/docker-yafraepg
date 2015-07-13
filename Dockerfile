@@ -24,28 +24,26 @@ MAINTAINER Martin Weber <info@yafra.org>
 
 # Install mono packages
 RUN apt-get update && \
-  DEBIAN_FRONTEND=noninteractive apt-get install -yq mono-complete unrar-free  && \
+  DEBIAN_FRONTEND=noninteractive apt-get install -yq mono-complete unrar  && \
   rm -rf /var/lib/apt/lists/*
 
 WORKDIR /work
+COPY run-docker.sh /work/run-docker.sh
 
 RUN cd /work && \
+  git clone https://github.com/yafraorg/docker-yafraepg.git && \
   wget -q http://www.webgrabplus.com/sites/default/files/download/SW/V1.1.1/WebGrabPlusV1.1.1LINUX.rar && \
-  wget -q http://www.webgrabplus.com/sites/default/files/download/sw/V1.1.1/upgrade/patchexe_54.zip
-
-#
-#  unrar WebGrabPlusV1.1.1LINUX.rar && \
-#  mv WebGrab+PlusV1.1.1LINUX/ wgplus && \
-#  mv patchexe_54.zip wgplus/ && \
-#  cd wgplus && \
-#  unzip patchexe_54.zip && \
-#  mkdir ../wg && \
-#  mkdir ../wg/mdb && \
-#  mkdir ../wg/rex && \
-#  cp WebGrab+Plus.exe ../wg
-
-COPY run-docker.sh /work/run-docker.sh
-COPY epgconfig/WebGrab++.config.xml /work/wg/WebGrab++.config.xml
+  wget -q http://www.webgrabplus.com/sites/default/files/download/sw/V1.1.1/upgrade/patchexe_54.zip && \
+  unrar WebGrabPlusV1.1.1LINUX.rar && \
+  mv WebGrab+PlusV1.1.1LINUX/ wgplus && \
+  mv patchexe_54.zip wgplus/ && \
+  cd wgplus && \
+  unzip patchexe_54.zip && \
+  mkdir ../wg && \
+  cp WebGrab+Plus.exe ../wg && \
+  cd ../docker-yafraepg/epgconfig && \
+  cp -r * /work/wg/. && \
+  cd /work
 
 #EXPOSE 80
 #CMD ["/work/run-docker.sh"]

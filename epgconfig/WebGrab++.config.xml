@@ -35,7 +35,7 @@ examples:
   <postprocess>mdb</postprocess>  same as above (uses defaults for grab and run)
   <postprocess grab="no">rex</postprocess>  runs rex without grab (existing xmltv file)
 -->
-  <postprocess run="y" grab="y">mdb</postprocess>
+  <postprocess run="n" grab="y">mdb</postprocess>
   
   <!-- proxy:
 This setting is only required if your computer is connected to internet behind a proxy
@@ -63,7 +63,7 @@ The most simple form of retry defines the amount of times the grabber engine sho
 It is also the place to specify delays between retries and the grabbing of html pages with the following attributes: timeout; the delay between retries (default is 10 sec), channel-delay; the delay between subsequent channels (default is 0), index-delay; the delay between the grabbing of index pages (default is 0), show-delay; the delay between the grabbing of detail show pages (default is 0). In the most complete version it will look like this:
 <retry time-out="5" channel-delay="5" index-delay="1" show-delay="1">4</retry> show-delay="2"
 -->
-  <retry time-out="5">3</retry>
+  <retry time-out="5">1</retry>
 
   <!--skip
 It takes two values H,m  separated by a comma: 

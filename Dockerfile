@@ -43,7 +43,10 @@ RUN cd /work && \
   cp WebGrab+Plus.exe ../wg && \
   cd ../docker-yafraepg/epgconfig && \
   cp -r * /work/wg/. && \
-  cd /work
+  cd /work && \
+  rm -rf wgplus/ && \
+  rm -rf repos/ && \
+  rm WebGrabPlusV1.1.1LINUX.rar
 
-#EXPOSE 80
-#CMD ["/work/run-docker.sh"]
+EXPOSE 80
+CMD ["/work/run-docker.sh"]

@@ -42,11 +42,11 @@ install:
   - mv patchexe_54.zip wgplus/
   - cd wgplus
   - unar -D patchexe_54.zip
+  - rm patchexe_54.zip
   - mkdir ../wg
   - cp WebGrab+Plus.exe ../wg
-  - cd /work
+  - cd ..
   - rm -rf wgplus/
-  - rm -rf repos/
   - rm WebGrabPlusV1.1.1LINUX.rar
   - ls
 

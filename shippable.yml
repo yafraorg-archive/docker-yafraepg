@@ -41,7 +41,7 @@ install:
   - mv WebGrab+PlusV1.1.1LINUX/ wgplus
   - mv patchexe_54.zip wgplus/
   - cd wgplus
-  - unar patchexe_54.zip
+  - unar -D patchexe_54.zip
   - mkdir ../wg
   - cp WebGrab+Plus.exe ../wg
   - cd ../docker-yafraepg/epgconfig

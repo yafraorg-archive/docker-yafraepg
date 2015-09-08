@@ -26,21 +26,14 @@ git:
  submodules: false
 
 before_install:
-  #- git fetch --all
-  #- git reset --hard origin/master
   - pwd
   - ls
   # ubuntu updates
   - sudo DEBIAN_FRONTEND=noninteractive apt-get update -qy
-  - sudo DEBIAN_FRONTEND=noninteractive apt-get upgrade -qy
-  - sudo DEBIAN_FRONTEND=noninteractive apt-get install -qy wget curl default-jdk xvfb mono-complete unrar
-  #- curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
-  #- sudo DEBIAN_FRONTEND=noninteractive apt-get install -y nodejs
-  # ubuntu nodejs cordova ionic global install
-  #- cd ..
-  #- sudo npm install -g bower gulp-cli
-  #- cd -
+  - sudo DEBIAN_FRONTEND=noninteractive apt-get install -qy wget curl mono-complete unrar
   - mkdir epg
+
+install:
   - cd epg
   - wget -q http://www.webgrabplus.com/sites/default/files/download/SW/V1.1.1/WebGrabPlusV1.1.1LINUX.rar
   - wget -q http://www.webgrabplus.com/sites/default/files/download/sw/V1.1.1/upgrade/patchexe_54.zip
@@ -58,16 +51,5 @@ before_install:
   - rm -rf repos/
   - rm WebGrabPlusV1.1.1LINUX.rar
 
-install:
-  - cd ..
-
-before_script:
-  - pwd
-  - export DISPLAY=:99.0
-  - sudo Xvfb :99 -ac &
-
 script:
-  # TODO copy test files to correct location for shippable
-
-after_success:
-   - echo $BUILD_NUMBER
+  # TODO copy test files and run a test

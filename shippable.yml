@@ -30,18 +30,18 @@ before_install:
   - ls
   # ubuntu updates
   - sudo DEBIAN_FRONTEND=noninteractive apt-get update -qy
-  - sudo DEBIAN_FRONTEND=noninteractive apt-get install -qy wget curl mono-complete unrar
+  - sudo DEBIAN_FRONTEND=noninteractive apt-get install -qy wget curl mono-complete unar
   - mkdir epg
 
 install:
   - cd epg
   - wget -q http://www.webgrabplus.com/sites/default/files/download/SW/V1.1.1/WebGrabPlusV1.1.1LINUX.rar
   - wget -q http://www.webgrabplus.com/sites/default/files/download/sw/V1.1.1/upgrade/patchexe_54.zip
-  - unrar x WebGrabPlusV1.1.1LINUX.rar
+  - unar x WebGrabPlusV1.1.1LINUX.rar
   - mv WebGrab+PlusV1.1.1LINUX/ wgplus
   - mv patchexe_54.zip wgplus/
   - cd wgplus
-  - unzip patchexe_54.zip
+  - unar patchexe_54.zip
   - mkdir ../wg
   - cp WebGrab+Plus.exe ../wg
   - cd ../docker-yafraepg/epgconfig

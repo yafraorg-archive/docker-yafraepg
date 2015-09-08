@@ -44,12 +44,11 @@ install:
   - unar -D patchexe_54.zip
   - mkdir ../wg
   - cp WebGrab+Plus.exe ../wg
-  - cd ../docker-yafraepg/epgconfig
-  - cp -r * /work/wg/.
   - cd /work
   - rm -rf wgplus/
   - rm -rf repos/
   - rm WebGrabPlusV1.1.1LINUX.rar
+  - ls
 
 script:
   # TODO copy test files and run a test

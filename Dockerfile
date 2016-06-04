@@ -31,6 +31,7 @@ RUN echo "@testing http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/
 
 WORKDIR /work
 COPY run-docker.sh /work/run-docker.sh
+RUN chmod 755 /work/run-docker.sh
 
 RUN cd /work && \
   git clone https://github.com/yafraorg/docker-yafraepg.git && \

@@ -20,10 +20,18 @@
 
 echo "starting - run webgrab plus now"
 
+# run egp grabber with mono
+# mono WebGrab+Plus.exe "$(pwd)"
 cd /work/wg
 mono WebGrab+Plus.exe "$(pwd)"
 
+# copy guide to ftp server
+cp guide.xml guideorig.xml
+dos2unix guide.xml
+cp guide.xml /work/epgdata.xml
+cd /work
+#curl -T epgdata.xml ftp://username:password@ftp.server.com/remotedir/
+
 # do cron
-# run egp grabber with mono
-# mono WebGrab+Plus.exe "$(pwd)"
+
 echo "done - running EPG grabber"

@@ -38,9 +38,9 @@ RUN cd /work && \
   wget -q http://www.webgrabplus.com/sites/default/files/download/sw/V1.1.1/upgrade/patchexe_55.zip && \
   unrar x WebGrabPlusV1.1.1LINUX.rar && \
   mv WebGrab+PlusV1.1.1LINUX/ wgplus && \
-  mv patchexe_54.zip wgplus/ && \
+  mv patchexe_55.zip wgplus/ && \
   cd wgplus && \
-  unzip -D patchexe_54.zip && \
+  unzip -D patchexe_55.zip && \
   mkdir ../wg && \
   cp WebGrab+Plus.exe ../wg && \
   cd ../docker-yafraepg/epgconfig && \

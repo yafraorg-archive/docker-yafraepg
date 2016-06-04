@@ -141,7 +141,6 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
 <channel update="i" site="horizon.tv.ch" site_id="48323623170" xmltv_id="chSuperRTL">Super RTL HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159442" xmltv_id="chEurosport">Eurosport</channel>
 <channel update="i" site="horizon.tv.ch" site_id="541614119266" xmltv_id="chSPORT1">SPORT1 HD</channel>
-<channel update="i" site="horizon.tv.ch" site_id="581740583440" xmltv_id="chSSF">SSF</channel>
 <channel update="i" site="horizon.tv.ch" site_id="541614119262" xmltv_id="chCHTV">CH TV HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159209" xmltv_id="chArte">Arte HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159330" xmltv_id="ch3sat">3sat HD</channel>

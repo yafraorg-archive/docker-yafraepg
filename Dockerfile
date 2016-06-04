@@ -23,9 +23,10 @@ FROM yafraorg/docker-yafrabase
 MAINTAINER Martin Weber <info@yafra.org>
 
 # Install mono packages
+RUN echo "@testing \http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 RUN apk update && \
   apk upgrade && \
-  apk add --update git mono unrar unzip wget curl && \
+  apk add --update git mono@testing unrar unzip wget curl && \
   rm -rf /var/cache/apk/*
 
 RUN mkdir /work

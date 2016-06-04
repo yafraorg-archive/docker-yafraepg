@@ -17,16 +17,18 @@
 # yafra.org XMLTV EGP grabber docker
 #
 
-# source is yafra ubuntu
+# source is yafra os
 FROM yafraorg/docker-yafrabase
 
 MAINTAINER Martin Weber <info@yafra.org>
 
 # Install mono packages
-RUN apt-get update && \
-  DEBIAN_FRONTEND=noninteractive apt-get install -yq mono-complete unar  && \
-  rm -rf /var/lib/apt/lists/*
+RUN apk update && \
+  apk upgrade && \
+  apk add --update git mono unrar unzip wget curl && \
+  rm -rf /var/cache/apk/*
 
+RUN mkdir /work
 WORKDIR /work
 COPY run-docker.sh /work/run-docker.sh
 
@@ -34,11 +36,11 @@ RUN cd /work && \
   git clone https://github.com/yafraorg/docker-yafraepg.git && \
   wget -q http://www.webgrabplus.com/sites/default/files/download/SW/V1.1.1/WebGrabPlusV1.1.1LINUX.rar && \
   wget -q http://www.webgrabplus.com/sites/default/files/download/sw/V1.1.1/upgrade/patchexe_54.zip && \
-  unar WebGrabPlusV1.1.1LINUX.rar && \
+  unrar WebGrabPlusV1.1.1LINUX.rar && \
   mv WebGrab+PlusV1.1.1LINUX/ wgplus && \
   mv patchexe_54.zip wgplus/ && \
   cd wgplus && \
-  unar -D patchexe_54.zip && \
+  unzip -D patchexe_54.zip && \
   mkdir ../wg && \
   cp WebGrab+Plus.exe ../wg && \
   cd ../docker-yafraepg/epgconfig && \
@@ -49,4 +51,6 @@ RUN cd /work && \
   rm WebGrabPlusV1.1.1LINUX.rar
 
 EXPOSE 8085
-CMD ["/work/run-docker.sh"]
+
+#CMD ["/work/run-docker.sh"]
+ENTRYPOINT ["/work/run-docker.sh"]

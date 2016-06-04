@@ -29,8 +29,10 @@ mono WebGrab+Plus.exe "$(pwd)"
 cp guide.xml guideorig.xml
 dos2unix guide.xml
 cp guide.xml /work/epgdata.xml
+cp guide.xml /opt/epg/epgdata.xml
 cd /work
 #curl -T epgdata.xml ftp://username:password@ftp.server.com/remotedir/
+
 
 # do cron
 

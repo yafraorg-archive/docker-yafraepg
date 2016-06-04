@@ -30,9 +30,13 @@ RUN echo "@testing http://dl-4.alpinelinux.org/alpine/edge/testing" >> /etc/apk/
   rm -rf /var/cache/apk/*
 
 WORKDIR /work
+
+# setup start script and create directory to store the egpdata file
 COPY run-docker.sh /work/run-docker.sh
 RUN chmod 755 /work/run-docker.sh
+RUN mkdir -p /opt/epg
 
+# install web grabber
 RUN cd /work && \
   git clone https://github.com/yafraorg/docker-yafraepg.git && \
   wget -q http://www.webgrabplus.com/sites/default/files/download/SW/V1.1.1/WebGrabPlusV1.1.1LINUX.rar && \
@@ -51,7 +55,8 @@ RUN cd /work && \
   rm -rf repos/ && \
   rm WebGrabPlusV1.1.1LINUX.rar
 
-EXPOSE 8085
+# expose files via http server
+#EXPOSE 8085
 
 #CMD ["/work/run-docker.sh"]
 ENTRYPOINT ["/work/run-docker.sh"]

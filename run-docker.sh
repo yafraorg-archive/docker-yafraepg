@@ -17,14 +17,11 @@
 #
 # docker run script
 #
-# variables must be set by CI service
-# setup local environment first https://github.com/yafraorg/yafra/wiki/Development-Environment
-export WORKNODE=/work/yafra-runtime
-export YAFRAEXE=$WORKNODE/bin
-export CAYCONF=cayenne-org_yafra.xml
 
-cd /work
-git pull
+echo "starting - run webgrab plus now"
+
+cd /work/wg
+mono WebGrab+Plus.exe "$(pwd)"
 
 # do cron
 # run egp grabber with mono

@@ -33,7 +33,4 @@ cp guide.xml /opt/epg/epgdata.xml
 cd /work
 #curl -T epgdata.xml ftp://username:password@ftp.server.com/remotedir/
 
-
-# do cron
-
 echo "done - running EPG grabber"

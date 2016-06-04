@@ -63,7 +63,7 @@ The most simple form of retry defines the amount of times the grabber engine sho
 It is also the place to specify delays between retries and the grabbing of html pages with the following attributes: timeout; the delay between retries (default is 10 sec), channel-delay; the delay between subsequent channels (default is 0), index-delay; the delay between the grabbing of index pages (default is 0), show-delay; the delay between the grabbing of detail show pages (default is 0). In the most complete version it will look like this:
 <retry time-out="5" channel-delay="5" index-delay="1" show-delay="1">4</retry> show-delay="2"
 -->
-  <retry time-out="5">1</retry>
+  <retry time-out="7" channel-delay="5" index-delay="1" show-delay="2">2</retry>
 
   <!--skip
 It takes two values H,m  separated by a comma: 
@@ -79,7 +79,7 @@ The timespan for which shows will be grabbed.
 It takes one or two values separated by a comma or a space. The first is the number of days (including today) to download, note that 0 is today. The second (optional) is a time specified between 0:00 and 24:00 which will reduce the download to only the one show (per day) which is scheduled around the specified time. Any value between start time (including) and stop time will do
 This -one-show-only mode is helpfull if a SiteIni file needs to be debugged
 -->
-  <timespan>5</timespan>
+  <timespan>7</timespan>
 
   <!-- update mode
 i or incremental     only updates of changes , gabs, repairs and new shows
@@ -132,6 +132,7 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
 <channel update="i" site="horizon.tv.ch" site_id="48323623167" xmltv_id="chRTL2">RTL 2 HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159419" xmltv_id="ch4">4+ HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="552540199185" xmltv_id="ch5">5+ HD</channel>
+<channel update="i" site="horizon.tv.ch" site_id="668884519365" xmltv_id="chPuls8">Puls 8 HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="48323623169" xmltv_id="chVOX">VOX HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159148" xmltv_id="chkabeleins">kabel eins HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="581742118963" xmltv_id="chTelebasel">Telebasel</channel>
@@ -144,8 +145,8 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
 <channel update="i" site="horizon.tv.ch" site_id="541614119262" xmltv_id="chCHTV">CH TV HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159209" xmltv_id="chArte">Arte HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159330" xmltv_id="ch3sat">3sat HD</channel>
-<channel update="i" site="horizon.tv.ch" site_id="27909159360" xmltv_id="chSWRBW">SWR BW HD</channel>
-<channel update="i" site="horizon.tv.ch" site_id="27909159183" xmltv_id="chBRSud">BR Süd HD</channel>
+<channel update="i" site="horizon.tv.ch" site_id="27909159360" xmltv_id="chSWR">SWR BW HD</channel>
+<channel update="i" site="horizon.tv.ch" site_id="27909159183" xmltv_id="chBR">BR Süd HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159290" xmltv_id="chWDR">WDR Fernsehen HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="541614119263" xmltv_id="chMDR">MDR Sachsen HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159151" xmltv_id="chNDR">NDR HD</channel>

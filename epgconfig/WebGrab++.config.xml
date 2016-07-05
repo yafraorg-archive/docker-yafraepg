@@ -44,19 +44,18 @@ or as <proxy>automatic</proxy> which attempts to read the proxy address from you
 <proxy user="username" password="password">192.168.2.4:8080</proxy>  
   <proxy>192.168.2.2:8080</proxy>
 -->
-<proxy>automatic</proxy>
+    <proxy>automatic</proxy>
 
   <!-- user agent:
 The user agent string that is sent to the tvguide website. Some sites require this. Valid values are either 
 , in which case the program generates a random string, or any other string like <user-agent>Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US)</user-agent>  <user-agent>random</user-agent><user-agent>Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US)</user-agent><user-agent>Mozilla/5.0 (Linux; U; Android 0.5; en-us) AppleWebKit/522+ (KHTML, like Gecko) Safari/419.3</user-agent>
 -->
-<user-agent>Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; yie9)</user-agent>
-  
+    <user-agent>random</user-agent>
   
   <!-- logging: 
 simply put 'on' in there to start logging, anything else will turn it off 
 -->
-  <logging>on</logging>
+    <logging>on</logging>
 
   <!--retry
 The most simple form of retry defines the amount of times the grabber engine should attempt to capture a web page before giving up and continuing with the next page, like <retry>4</retry>

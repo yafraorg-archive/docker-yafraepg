@@ -62,7 +62,7 @@ The most simple form of retry defines the amount of times the grabber engine sho
 It is also the place to specify delays between retries and the grabbing of html pages with the following attributes: timeout; the delay between retries (default is 10 sec), channel-delay; the delay between subsequent channels (default is 0), index-delay; the delay between the grabbing of index pages (default is 0), show-delay; the delay between the grabbing of detail show pages (default is 0). In the most complete version it will look like this:
 <retry time-out="5" channel-delay="5" index-delay="1" show-delay="1">4</retry> show-delay="2"
 -->
-  <retry time-out="7" channel-delay="5" index-delay="1" show-delay="2">2</retry>
+  <retry time-out="2" channel-delay="1" index-delay="1" show-delay="2">2</retry>
 
   <!--skip
 It takes two values H,m  separated by a comma: 
@@ -78,7 +78,7 @@ The timespan for which shows will be grabbed.
 It takes one or two values separated by a comma or a space. The first is the number of days (including today) to download, note that 0 is today. The second (optional) is a time specified between 0:00 and 24:00 which will reduce the download to only the one show (per day) which is scheduled around the specified time. Any value between start time (including) and stop time will do
 This -one-show-only mode is helpfull if a SiteIni file needs to be debugged
 -->
-  <timespan>2</timespan>
+  <timespan>4</timespan>
 
   <!-- update mode
 i or incremental     only updates of changes , gabs, repairs and new shows

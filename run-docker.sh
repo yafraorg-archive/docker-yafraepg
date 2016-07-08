@@ -23,10 +23,11 @@ echo "starting - run webgrab plus now"
 # run egp grabber with mono
 # mono WebGrab+Plus.exe "$(pwd)"
 cd /work/wg
+cp /opt/epg/guideorig.xml guide.xml
 mono WebGrab+Plus.exe "$(pwd)"
 
 # copy guide to ftp server
-cp guide.xml guideorig.xml
+cp guide.xml /opt/epg/guideorig.xml
 dos2unix guide.xml
 cp guide.xml /work/epgdata.xml
 cp guide.xml /opt/epg/epgdata.xml

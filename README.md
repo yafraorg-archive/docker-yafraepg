@@ -16,5 +16,20 @@ docker pull yafraorg/docker-yafraepg
 docker run -t -i --rm -v /tmp/epg:/opt/epg --name yafraepg yafraorg/docker-yafraepg
 ```
 
+## Error
+```
+Error
+[  Debug ]    skipped : show that happened before 'today' @ 06/07/2016 23:00
+[  Info  ] 2.56 sec/update
+[  Debug ] 
+[  Debug ] 3784 shows in 35 channels
+[  Debug ] 0 updated shows
+[  Debug ] 3784 new shows added
+[  Info  ] 
+[  Info  ] 
+[        ] Job finished at 07/07/2016 21:17:25 done in 2h 51m 9s
+[  Debug ] statistics upload error: The remote server returned an error: (500) Internal Server Error.
+bash-4.3# 
+```
 
 

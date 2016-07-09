@@ -78,7 +78,7 @@ The timespan for which shows will be grabbed.
 It takes one or two values separated by a comma or a space. The first is the number of days (including today) to download, note that 0 is today. The second (optional) is a time specified between 0:00 and 24:00 which will reduce the download to only the one show (per day) which is scheduled around the specified time. Any value between start time (including) and stop time will do
 This -one-show-only mode is helpfull if a SiteIni file needs to be debugged
 -->
-  <timespan>4</timespan>
+  <timespan>6</timespan>
 
   <!-- update mode
 i or incremental     only updates of changes , gabs, repairs and new shows
@@ -113,7 +113,7 @@ Be aware that all channels entered here will be included in the xmltv channel ta
 WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
 -->
 
-<!-- cablecom EPG July 2015
+<!-- cablecom EPG July 2016
  -->
 <channel update="i" site="horizon.tv.ch" site_id="27909159188" xmltv_id="chSRF1">SRF 1 HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159201" xmltv_id="chSRFzwei">SRF zwei HD</channel>
@@ -151,46 +151,42 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
 <channel update="i" site="horizon.tv.ch" site_id="541614119269" xmltv_id="chhr">hr-fernsehen HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="541614119271" xmltv_id="chrbb">rbb Berlin HD</channel>
 
-
-<!-- TELEBOY EPG July 2015
-    <channel update="i" site="teleboy.ch" site_id="303" xmltv_id="SRF 1">SRF 1</channel>
-    <channel update="i" site="teleboy.ch" site_id="304" xmltv_id="SRF zwei">SRF zwei</channel>
-    <channel update="i" site="teleboy.ch" site_id="5" xmltv_id="SRF info">SRF info</channel>
-    <channel update="i" site="teleboy.ch" site_id="307" xmltv_id="ORF 1">ORF 1</channel>
-    <channel update="i" site="teleboy.ch" site_id="347" xmltv_id="ORF 2">ORF 2</channel>
-    <channel update="i" site="teleboy.ch" site_id="309" xmltv_id="Das Erste">Das Erste</channel>
-    <channel update="i" site="teleboy.ch" site_id="306" xmltv_id="ZDF">ZDF</channel>
-    <channel update="i" site="teleboy.ch" site_id="311" xmltv_id="3sat">3sat</channel>
-    <channel update="i" site="teleboy.ch" site_id="310" xmltv_id="Arte">Arte</channel>
-    <channel update="i" site="teleboy.ch" site_id="27" xmltv_id="BR">BR</channel>
-    <channel update="i" site="teleboy.ch" site_id="31" xmltv_id="MDR">MDR</channel>
-    <channel update="i" site="teleboy.ch" site_id="337" xmltv_id="NDR">NDR</channel>
-    <channel update="i" site="teleboy.ch" site_id="345" xmltv_id="SWR BW">SWR BW</channel>
-    <channel update="i" site="teleboy.ch" site_id="338" xmltv_id="WDR">WDR</channel>
-    <channel update="i" site="teleboy.ch" site_id="42" xmltv_id="hr">hr</channel>
-    <channel update="i" site="teleboy.ch" site_id="39" xmltv_id="RBB">RBB</channel>
-    <channel update="i" site="teleboy.ch" site_id="354" xmltv_id="ProSieben">ProSieben</channel>
-    <channel update="i" site="teleboy.ch" site_id="356" xmltv_id="RTL">RTL</channel>
-    <channel update="i" site="teleboy.ch" site_id="360" xmltv_id="Sat.1">Sat.1</channel>
-    <channel update="i" site="teleboy.ch" site_id="352" xmltv_id="VOX">VOX</channel>
-    <channel update="i" site="teleboy.ch" site_id="353" xmltv_id="Kabel1">Kabel1</channel>
-    <channel update="i" site="teleboy.ch" site_id="357" xmltv_id="RTL 2">RTL 2</channel>
-    <channel update="i" site="teleboy.ch" site_id="350" xmltv_id="3+">3+</channel>
-    <channel update="i" site="teleboy.ch" site_id="351" xmltv_id="4+">4+</channel>
-    <channel update="i" site="teleboy.ch" site_id="348" xmltv_id="5+">5+</channel>
-    <channel update="i" site="teleboy.ch" site_id="322" xmltv_id="CHTV">CHTV</channel>
-    <channel update="i" site="teleboy.ch" site_id="323" xmltv_id="S1">S1</channel>
-    <channel update="i" site="teleboy.ch" site_id="242" xmltv_id="SSF">SSF</channel>
-    <channel update="i" site="teleboy.ch" site_id="19" xmltv_id="Star TV">Star TV</channel>
-    <channel update="i" site="teleboy.ch" site_id="21" xmltv_id="Telebasel">Telebasel</channel>
-    <channel update="i" site="teleboy.ch" site_id="289" xmltv_id="RTL Nitro">RTL Nitro</channel>
-    <channel update="i" site="teleboy.ch" site_id="294" xmltv_id="Super RTL">Super RTL</channel>
-    <channel update="i" site="teleboy.ch" site_id="35" xmltv_id="Eurosport">Eurosport</channel>
-    <channel update="i" site="teleboy.ch" site_id="36" xmltv_id="Sport1">Sport1</channel>
-    <channel update="i" site="teleboy.ch" site_id="67" xmltv_id="EuroNews">EuroNews</channel>
-    <channel update="i" site="teleboy.ch" site_id="141" xmltv_id="Nickelodeon">Nickelodeon</channel>
-    <channel update="i" site="teleboy.ch" site_id="43" xmltv_id="KiKa">KiKa</channel>
-    <channel update="i" site="teleboy.ch" site_id="181" xmltv_id="MTV">MTV</channel>
-    -->
+<!-- TELEBOY EPG July 2016
+<channel update="i" site="teleboy.ch" site_id="303" xmltv_id="chSRF1">SRF 1 HD</channel>
+<channel update="i" site="teleboy.ch" site_id="304" xmltv_id="chSRFzwei">SRF zwei HD</channel>
+<channel update="i" site="teleboy.ch" site_id="5" xmltv_id="chSRFinfo">SRF info</channel>
+<channel update="i" site="teleboy.ch" site_id="350" xmltv_id="ch3">3+ HD</channel>
+<channel update="i" site="horizon.tv.ch" site_id="256616999363" xmltv_id="chS1">S1 HD</channel>
+<channel update="i" site="teleboy.ch" site_id="19" xmltv_id="chStarTV">Star TV HD</channel>
+<channel update="i" site="teleboy.ch" site_id="309" xmltv_id="chDasErste">Das Erste HD</channel>
+<channel update="i" site="teleboy.ch" site_id="306" xmltv_id="chZDF">ZDF HD</channel>
+<channel update="i" site="teleboy.ch" site_id="307" xmltv_id="chORF1">ORF eins HD</channel>
+<channel update="i" site="teleboy.ch" site_id="347" xmltv_id="chORF2">ORF 2 HD</channel>
+<channel update="i" site="teleboy.ch" site_id="356" xmltv_id="chRTL">RTL HD</channel>
+<channel update="i" site="teleboy.ch" site_id="360" xmltv_id="chSAT1">SAT.1 HD</channel>
+<channel update="i" site="teleboy.ch" site_id="354" xmltv_id="chProSieben">ProSieben HD</channel>
+<channel update="i" site="teleboy.ch" site_id="357" xmltv_id="chRTL2">RTL 2 HD</channel>
+<channel update="i" site="teleboy.ch" site_id="351" xmltv_id="ch4">4+ HD</channel>
+<channel update="i" site="teleboy.ch" site_id="348" xmltv_id="ch5">5+ HD</channel>
+<channel update="i" site="teleboy.ch" site_id="362" xmltv_id="chPuls8">Puls 8 HD</channel>
+<channel update="i" site="teleboy.ch" site_id="352" xmltv_id="chVOX">VOX HD</channel>
+<channel update="i" site="teleboy.ch" site_id="353" xmltv_id="chkabeleins">kabel eins HD</channel>
+<channel update="i" site="teleboy.ch" site_id="21" xmltv_id="chTelebasel">Telebasel</channel>
+<channel update="i" site="teleboy.ch" site_id="141" xmltv_id="chnickelodeon">nickelodeon HD</channel>
+<channel update="i" site="horizon.tv.ch" site_id="27909159223" xmltv_id="chKiKA">KiKA HD</channel>
+<channel update="i" site="teleboy.ch" site_id="359" xmltv_id="chSuperRTL">Super RTL HD</channel>
+<channel update="i" site="teleboy.ch" site_id="35" xmltv_id="chEurosport">Eurosport</channel>
+<channel update="i" site="teleboy.ch" site_id="36" xmltv_id="chSPORT1">SPORT1 HD</channel>
+<channel update="i" site="horizon.tv.ch" site_id="541614119262" xmltv_id="chCHTV">CH TV HD</channel>
+<channel update="i" site="teleboy.ch" site_id="310" xmltv_id="chArte">Arte HD</channel>
+<channel update="i" site="teleboy.ch" site_id="311" xmltv_id="ch3sat">3sat HD</channel>
+<channel update="i" site="teleboy.ch" site_id="345" xmltv_id="chSWR">SWR BW HD</channel>
+<channel update="i" site="horizon.tv.ch" site_id="27909159183" xmltv_id="chBR">BR Süd HD</channel>
+<channel update="i" site="teleboy.ch" site_id="338" xmltv_id="chWDR">WDR Fernsehen HD</channel>
+<channel update="i" site="teleboy.ch" site_id="31" xmltv_id="chMDR">MDR Sachsen HD</channel>
+<channel update="i" site="teleboy.ch" site_id="337" xmltv_id="chNDR">NDR HD</channel>
+<channel update="i" site="teleboy.ch" site_id="42" xmltv_id="chhr">hr-fernsehen HD</channel>
+<channel update="i" site="teleboy.ch" site_id="39" xmltv_id="chrbb">rbb Berlin HD</channel>
+-->
 
 </settings>

@@ -17,6 +17,9 @@
 # yafra.org XMLTV EGP grabber docker
 #
 
+# WebGrabPlus version history
+# 2016-07-30 Beta 56.28
+
 # source is yafra os
 FROM yafraorg/docker-yafrabase
 

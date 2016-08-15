@@ -40,17 +40,18 @@ RUN chmod 755 /work/run-docker.sh
 RUN mkdir -p /opt/epg
 
 #  wget -q http://www.webgrabplus.com/sites/default/files/download/sw/V1.1.1/upgrade/patchexe_55.zip && \
+#   wget -q http://www.webgrabplus.com/sites/default/files/patchexe_prebuild.zip && \
 
 # install web grabber
 RUN cd /work && \
   git clone https://github.com/yafraorg/docker-yafraepg.git && \
   wget -q http://www.webgrabplus.com/sites/default/files/download/SW/V1.1.1/WebGrabPlusV1.1.1LINUX.rar && \
-  wget -q http://www.webgrabplus.com/sites/default/files/patchexe_prebuild.zip && \
+  wget -q http://webgrabplus.com/sites/default/files/download/sw/V1.1.1/upgrade/patchexe_57.zip && \
   unrar x WebGrabPlusV1.1.1LINUX.rar && \
   mv WebGrab+PlusV1.1.1LINUX/ wgplus && \
-  mv patchexe_prebuild.zip wgplus/ && \
+  mv patchexe_57.zip wgplus/ && \
   cd wgplus && \
-  unzip -D patchexe_prebuild.zip && \
+  unzip -D patchexe_57.zip && \
   mkdir ../wg && \
   cp WebGrab+Plus.exe ../wg && \
   cd ../docker-yafraepg/epgconfig && \

@@ -19,6 +19,7 @@
 
 # WebGrabPlus version history
 # 2016-07-30 Beta 56.28
+# 2016-08-03 Patch 56 - Beta 56.29
 
 # source is yafra os
 FROM yafraorg/docker-yafrabase

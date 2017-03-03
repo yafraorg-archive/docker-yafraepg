@@ -20,11 +20,16 @@
 
 echo "starting - run webgrab plus now"
 
+cd /work/phpserver
+php7 -S 127.0.0.1:80 &
+cd /work
+
 # run egp grabber with mono
 # mono WebGrab+Plus.exe "$(pwd)"
 cd /work/wg
 cp /opt/epg/guideorig.xml guide.xml
-mono WebGrab+Plus.exe "$(pwd)"
+./run.sh
+#mono WebGrab+Plus.exe "$(pwd)"
 
 # copy guide to ftp server
 cp guide.xml /opt/epg/guideorig.xml

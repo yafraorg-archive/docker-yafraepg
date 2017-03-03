@@ -113,8 +113,44 @@ Be aware that all channels entered here will be included in the xmltv channel ta
 WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
 -->
 
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159188" xmltv_id="chSRF1">SRF 1 HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159201" xmltv_id="chSRFzwei">SRF zwei HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_581742118955" xmltv_id="chSRFinfo">SRF info HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159449" xmltv_id="ch3">3 HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_256616999363" xmltv_id="chS1">S1 HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_256616999386" xmltv_id="chStarTV">Star TV HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159156" xmltv_id="chDasErste">Das Erste HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159181" xmltv_id="chZDF">ZDF HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159338" xmltv_id="chORF1">ORF eins HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159347" xmltv_id="chORF2">ORF 2 HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_48323623166" xmltv_id="chRTL">RTL HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159257" xmltv_id="chSAT1">SAT1 HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159335" xmltv_id="chProSieben">ProSieben HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_48323623167" xmltv_id="chRTL2">RTL 2 HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159419" xmltv_id="ch4">4 HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_552540199185" xmltv_id="ch5">5 HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_668884519365" xmltv_id="chPuls8">Puls 8 HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_48323623169" xmltv_id="chVOX">VOX HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159148" xmltv_id="chkabeleins">kabel eins HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_581742118963" xmltv_id="chTelebasel">Telebasel HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_256616999401" xmltv_id="chnickelodeon">nickelodeon HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159223" xmltv_id="chKiKA">KiKA HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_48323623170" xmltv_id="chSuperRTL">Super RTL HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159442" xmltv_id="chEurosport">Eurosport 1</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_541614119266" xmltv_id="chSPORT1">SPORT1 HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_541614119262" xmltv_id="chCHTV">CH TV HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159209" xmltv_id="chArte">arte HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159330" xmltv_id="ch3sat">3sat HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159360" xmltv_id="chSWR">SWR BW HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159183" xmltv_id="chBR">BR Fernsehen Süd HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159290" xmltv_id="chWDR">WDR Fernsehen HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_541614119263" xmltv_id="chMDR">MDR Sachsen HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_27909159151" xmltv_id="chNDR">NDR FS NDS HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_541614119269" xmltv_id="chhr">hrfernsehen HD</channel>
+    <channel update="i" site="horizon.tv" site_id="CH/deu_541614119271" xmltv_id="chrbb">rbb Berlin HD</channel>
+
+
 <!-- cablecom EPG July 2016
- -->
 <channel update="i" site="horizon.tv.ch" site_id="27909159188" xmltv_id="chSRF1">SRF 1 HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="27909159201" xmltv_id="chSRFzwei">SRF zwei HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="581742118955" xmltv_id="chSRFinfo">SRF info</channel>
@@ -150,6 +186,7 @@ WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
 <channel update="i" site="horizon.tv.ch" site_id="27909159151" xmltv_id="chNDR">NDR HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="541614119269" xmltv_id="chhr">hr-fernsehen HD</channel>
 <channel update="i" site="horizon.tv.ch" site_id="541614119271" xmltv_id="chrbb">rbb Berlin HD</channel>
+ -->
 
 <!-- TELEBOY EPG July 2016
 <channel update="i" site="teleboy.ch" site_id="303" xmltv_id="chSRF1">SRF 1 HD</channel>
